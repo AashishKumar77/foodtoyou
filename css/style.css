@@ -6,11 +6,9 @@ http://www.templatemo.com/tm-515-eatery
 
 */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-
 body {
   background: #ffffff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   overflow-x: hidden;
 }
 
@@ -99,6 +97,7 @@ a:focus {
 
 .section-title h2 {
   margin: 0;
+  font-size: 22px;
 }
 
 .section-title h4 {
@@ -122,7 +121,7 @@ a:focus {
 
 section {
   position: relative;
-  padding: 100px 0;
+  padding: 30px 0;
 }
 
 #team,
@@ -362,6 +361,7 @@ section {
 #home h1 {
   color: #ffffff;
   padding-bottom: 30px;
+  font-size: 32px;
 }
 
 #home h3 {
@@ -585,125 +585,34 @@ section {
   padding-bottom: 0;
 }
 
-#menu .grid .img-box {
-  height: 150px;
-}
 
 .grid .img-box>img {
-  max-width: 150px;
+  max-width: 50px;
 }
 
 .grid {
-  box-shadow: 0 0 16px #e6e6e6;
+  border-radius: 10px;
+  justify-content: space-around;
+  display: -webkit-box;
+  border: 1px solid #f9f9f9;
+  display: flex;
+  box-shadow: 12px 8px 10px rgba(31, 45, 91, 0.02);
   padding: 20px;
+  margin-bottom: 20px;
 }
 
-/*---------------------------------------
-      TESTIMONIAL             
-  -----------------------------------------*/
-
-#testimonial {
-  background: url('../images/testimonial-bg.jpg') center center no-repeat;
-  background-size: cover;
+.details {
+  text-align: left;
 }
 
-#testimonial .owl-dots {
-  position: relative;
-  top: 0;
-  right: 0;
-  -webkit-box-pack: center;
-  justify-content: center;
+.details h3,
+.details p {
+  margin: 0;
 }
 
-#testimonial .owl-theme .owl-dots .owl-dot,
-#testimonial .owl-theme .owl-dots .owl-dot span {
-  display: inline-block;
+.details h3 {
+  font-size: 18px;
 }
-
-#testimonial .owl-theme .owl-dots .owl-dot span {
-  margin: 20px 5px;
-}
-
-#testimonial h2 {
-  color: #ffffff;
-}
-
-#testimonial p,
-.tst-author h4,
-.tst-author span {
-  display: inline;
-}
-
-#testimonial p {
-  color: #d9d9d9;
-  font-size: 20px;
-  line-height: 35px;
-}
-
-.tst-author {
-  margin-top: 20px;
-}
-
-.tst-author h4,
-.tst-author span {
-  color: #b2b2b2;
-}
-
-.tst-author span {
-  margin-left: 5px;
-}
-
-
-
-/*---------------------------------------
-      CONTACT             
-  -----------------------------------------*/
-
-#contact .section-title {
-  padding-bottom: 0;
-}
-
-#contact .text-success,
-#contact .text-danger {
-  display: none;
-}
-
-#contact .form-control {
-  background: transparent;
-  border: 0;
-  border-bottom: 1px solid #dddddd;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  font-weight: normal;
-  margin-bottom: 15px;
-  -webkit-transition: all ease-in-out 0.4s;
-  transition: all ease-in-out 0.4s;
-}
-
-#contact .form-control:hover,
-#contact .form-control:focus {
-  border-bottom-color: #c9c9c9;
-}
-
-#contact input {
-  height: 55px;
-}
-
-#contact button#cf-submit {
-  background: #ce3232;
-  border-radius: 0;
-  border: 0;
-  color: #ffffff;
-  font-weight: bold;
-  height: 50px;
-}
-
-#contact button#cf-submit:hover {
-  background: #292929;
-  color: #ffffff;
-}
-
 
 
 /*---------------------------------------
