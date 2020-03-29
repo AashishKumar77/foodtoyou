@@ -195,10 +195,9 @@ section {
   content: '';
   box-sizing: border-box;
   position: absolute;
-  top: 50%;
   left: 50%;
-  width: 45px;
-  height: 45px;
+  width: 20px;
+  height: 20px;
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
@@ -247,7 +246,7 @@ section {
   font-weight: bold;
 }
 
-.custom-navbar .navbar-brand span {
+.navbar-brand span {
   color: #17be26;
 }
 
