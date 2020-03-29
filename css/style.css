@@ -207,13 +207,6 @@ section {
   animation: spinner .9s linear infinite;
 }
 
-@-webkit-@keyframes spinner {
-  to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
 @-webkit-keyframes spinner {
   to {
     -webkit-transform: rotate(360deg);
